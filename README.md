@@ -31,3 +31,38 @@
    * save the file and add, commit, and push
    * what happens to useless.txt?
    * git status
+
+## Extra
+
+6. Look at history of commits
+    * git log
+    
+7. Look at unstaged changes made to a file
+    * edit the test.txt file
+    * git status
+    * git diff
+    * git diff test.txt
+    * git add test.txt 
+    * git diff
+    * git commit -m "editing test to visualize differences"
+    * git diff
+    
+8. Undoing changes in specific file with checkout
+    * two options 
+      * git checkout HEAD~1 test.txt
+      * git checkout <id from git log> test.txt
+    * makes your working directory match the exact state of the commit you've selected
+    * git add test.txt
+    * git commit -m "undo test changes"
+  
+ 9. Undoing changes in a commit with git revert
+    * execute git revert HEAD
+      * git creates a new commit with the inverse of the last commit (new commit undoing changes)
+      * creates a commit history but easy to track
+      
+ 10. Undoing changes with git reset
+    * git reset --hard <commit id> 
+      * the commit history is reset to that specified commit
+      * removes all commits after the specified commit id
+  
+    
