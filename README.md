@@ -15,7 +15,7 @@
 3. Make a branch of the repository
    * in the GitWorkshop directory type git branch <yourname>branch
    * to go to that branch type git checkout <yourname>branch
-   * edit the file called names.txt by adding your name
+   * edit the file called test.txt by adding your name
    * make sure to add and commit your changes on the branch
    * to go back to the master branch type git checkout master
    * to merge your branch back to master type git merge <yourname>branch
