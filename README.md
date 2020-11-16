@@ -29,7 +29,7 @@
    * using your favorite text editor create a file called .gitignore
    * add the extensions or names of files you do not want included - ignoreme.txt
    * save the file and add, commit, and push
-   * what happens to useless.txt?
+   * what happens to ignoreme.txt?
    * git status
 
 ## Extra
