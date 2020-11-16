@@ -61,8 +61,8 @@
       * creates a commit history but easy to track
  
  10. Undoing changes with git reset
-    * git reset --hard <commit id> 
-      * the commit history is reset to that specified commit
-      * removes all commits after the specified commit id
+      * git reset --hard <commit id> 
+        * the commit history is reset to that specified commit
+        * removes all commits after the specified commit id
   
     
